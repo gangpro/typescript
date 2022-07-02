@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" ",
+    "prestart": "tsc"
+  },
+  "author": "gangpro",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.8.1",
+    "tsc-watch": "^5.0.3"
+  }
+}
